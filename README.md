@@ -1,4 +1,4 @@
-# usePromise()
+# @grd/usePromise()
 Simple react hook to handle promises
 
 #### Note: It works with any `Promise` implementation, but this documentation uses `axios` for demonstration.
