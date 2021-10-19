@@ -1,6 +1,6 @@
 {
   "name": "use-promise",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "React hook for handle promise data, error and loading states.",
   "main": "lib/index.js",
   "scripts": {
