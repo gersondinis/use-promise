@@ -6,15 +6,15 @@ Simple react hook to handle promises
 #### Dependency: `react@>16.8.0`
 
 ## Get started:
-###Install
+### Install
 ```bash
 yarn add @grd/use-promise;
 ```
-###Import
+### Import
 ```js
 import usePromise from '@grd/use-promise';
 ```
-###Use
+### Use
 ```js
 const [invokeFn, {result, error, isLoading}] = usePromise((arg) => Promise(arg))
 ```
