@@ -1,0 +1,41 @@
+{
+  "name": "use-promise",
+  "version": "1.0.0",
+  "description": "React hook for handle promise data, error and loading states.",
+  "main": "lib/index.js",
+  "scripts": {
+    "prepublish": "babel src --out-dir lib"
+  },
+  "babel": {
+    "presets": [
+      "@babel/env"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gersondinis/use-promise.git"
+  },
+  "keywords": [
+    "react",
+    "hook",
+    "promise",
+    "query"
+  ],
+  "author": "Gerson Diniz",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gersondinis/use-promise/issues"
+  },
+  "homepage": "https://github.com/gersondinis/use-promise#readme",
+  "peerDependencies": {
+    "react": ">16.8.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.15.7",
+    "@babel/core": "^7.15.5",
+    "@babel/preset-env": "^7.15.6"
+  },
+  "files": [
+    "/lib"
+  ]
+}
